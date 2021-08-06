@@ -15,7 +15,7 @@ rules = apriori(transactions = transactions, min_support = 0.003, min_confidence
 
 #VISUALISING THE RESULTS
 results = list(rules)
-print(results)
+#print(results)
 
 #PUTTING THE RESULTS WELL ORGANISED INTO A PANDAS DATAFRAME
 def inspect(results):
